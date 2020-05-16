@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cicd-jenkins-example
+- name: spring-cloud-jenkins-pivotal
   instances: 1
   memory: 800m
-  path: target/cicd-jenkins-example-0.0.1-SNAPSHOT.jar
+  path: target/spring-cloud-jenkins-pivotal-0.0.1-SNAPSHOT.jar
