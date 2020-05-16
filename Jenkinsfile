@@ -20,8 +20,8 @@ pipeline {
                                   usernameVariable: 'USERNAME',
                                   passwordVariable: 'PASSWORD']]) {
 
-                    bat '/usr/local/bin/cf login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD'
-                    bat '/usr/local/bin/cf push'
+                    bat 'D:\\log\\cf-cli-installer_6.43.0_winx64 login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD'
+                    bat 'D:\\log\\cf-cli-installer_6.43.0_winx64 push'
                 }
             }
 
